@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+.toggle {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.toggle button {
+	transition-duration: 0.4s;
+	border-radius: 4px;
+	background-color: white;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 4px 8px;
+	padding: 10px 32px;
+}
+.toggle .login {
+	border: 2px solid darkcyan;	
+	
+}
+
+.toggle .login:hover {
+	background-color: darkcyan;
+  color: white;
+}
+.toggle .create {
+	border: 2px solid darkseagreen;	
+}
+.toggle .create:hover {
+	background-color: darkseagreen;
+  color: white;
+}
+
+.toggle-page {
+}
+
+.toggle-page input{
+	width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.toggle-page input[type=submit]{
+	width: 200px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  width: 30%;
+	
+}
+.card img {
+	max-width: 150px;
+}
+
+.notFound {
+	width: 30%;
+	height: 200px;
+}
